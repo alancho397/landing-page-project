@@ -77,6 +77,12 @@ img {
     font-family: 'Roboto';
 }
 
+.midline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .midline-title {
     display: flex;
     justify-content: center;
@@ -87,21 +93,22 @@ img {
 
 .icon-set {
     display: flex;
-    border: solid black;
-    gap: 50px;
-    justify-content: center;
+    justify-content: space-between;
+    width: 800px;
     padding: 50px;
+    margin: 0px 500px 100px 500px;
 }
 
 .icon-border {
-    border: solid black;
+    border: solid #3882F6;
+    border-radius: 15px;
+    padding: 80px;
 }
 
 .subtext {
-    border: solid black;
-    width: 100px;
-    display: flex;
-    justify-content: center;
+    color: gray;
+    width: 160px;
+    text-align: center;
 }
 
 .quote-section {
