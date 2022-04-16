@@ -1,1 +1,1 @@
-# landing-page-project
+# This is an HTML/CSS project to showcase the skills I've learned through 'The Odin Project'.
