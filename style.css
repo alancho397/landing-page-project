@@ -16,7 +16,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 8px;
-    margin: 0px;
+    margin: 20px 80px 0px 80px;
 }
 
 .header-logo {
@@ -29,7 +29,6 @@ body {
     font-size: 48px;
     font-weight: 900;
     font-family: 'Hero';
-    border: solid black;
     width: 400px;
 }
 
@@ -40,7 +39,8 @@ a, .header-title-subtext {
 }
 
 .header-title-subtext {
-    width: 200px;
+    width: 500px;
+    margin: 10px 0px;
 }
 
 a {
@@ -53,16 +53,20 @@ a {
 }
 
 img {
-    width: 400px;
+    width: 500px;
 }
 
 .header-bot {
-    border: solid black;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    margin: 300px;
-    padding: 0px;
+    margin: 150px 300px 150px 300px;
+    padding: 0px 20px 0px 0px;
     flex: 1;
+}
+
+#header-button {
+    border: none;
+    padding: 8px 32px;
 }
 
 .header, .footer {
@@ -119,8 +123,8 @@ button {
     color: #F9FAF8;
     border: solid #F9FAF8;
     font-family: 'Roboto';
-    border-radius: 15px;
-    padding: 0px 25px;
+    border-radius: 10px;
+    padding: 10px 40px;
 }
 
 .container {
