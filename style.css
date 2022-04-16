@@ -109,9 +109,16 @@ img {
     color: #1F2937;
     font-size: 36px;
     font-family: 'Roboto';
-    padding: 100px;
+    padding: 100px 800px;
     /* light italic */
-    border: solid black;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 18px;
 }
 
 button {
