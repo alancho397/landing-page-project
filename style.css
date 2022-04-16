@@ -2,3 +2,45 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'light italic';
+    border: solid black;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-family: 'Roboto';
+}
+
+a, .header-title-subtext {
+    font-size: 18px;
+    font-family: 'Hero Secondary';
+    color: #E5E7EB
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Hero Main';
+}
+
+.midline-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
